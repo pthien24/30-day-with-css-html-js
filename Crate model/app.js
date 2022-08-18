@@ -1,9 +1,8 @@
 var btnopen = document.querySelector('.open-modal-btn');
 var modal = document.querySelector('.modal');
-var iconclose = document.querySelector('.modal_header');
+var iconclose = document.querySelector('.modal_header i');
 var bntclose = document.querySelector('.modal_footer button');
   function togglemodal(e){
-    console.log(e.target);
     modal.classList.toggle('hide')
   }
 
